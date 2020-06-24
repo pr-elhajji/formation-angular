@@ -1,6 +1,6 @@
-# Lab 2: Typescript | Basic Exercises
+# Lab 2: Typescript | Exercices
 
-## Learning Goals
+## Les objectifs pédagogiques
 
 Après cette leçon, vous pourrez:
 
