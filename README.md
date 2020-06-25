@@ -33,16 +33,26 @@ In the pull request name, add your name and last names separated by a dash "-"
 Dans le nom de pull request, ajoutez votre nom et votre prénom séparés par un tiret "-"
 
 ## Introduction
-Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur trois petits projets où vous pouvez mettre en pratique les concepts que nous avons appris jusqu'à présent.
-### Starter Code
+Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur un petit projet où vous pouvez mettre en pratique les concepts que nous avons appris jusqu'à présent. Il s'agit de créer un article de blog avec des commentaires. Nous allons créer deux composants différents:
 
+- Le composant `MainComponent`  contiendra l'article, composé d'un` title`, d'une `image` et d'une` description`.
+- Le composant `CommentsComponent`, qui contiendra plusieurs commentaires .
+
+### Starter Code
 Ce lab est composé de trois itérations. À chaque itération, nous ajoutant une fonctionalité ou un composant à notre projet. Nous vous fournissons des 
 des mockup version desktop. Votre résultat final devrait être très proche de cette maquette (Vous pouvez ajouter d'autres options améliorants le rendu de vos pages).
 
-## Instructions
-# Itération n°1
-1) créer projet angular
-2) Créer un composant qui affiche les informations sur l'article (voir le mockup 2)
+# Itération n°1:  Le composant `MainComponent` (Voir `Mockup 1`)
+1) Créer le projet angularnommé `blog`.
+2) Créer le composant `MainComponent` qui contiendra l'article, composé d'un` title`, d'une `image` et d'une` description`.
+
+> La première chose que vous devrez faire est de générer le projet avec «Angular CLI».
 
 # Itération n°2
-1) créer le deuxième composant qui permet d'afficher la list des articles (titre et images)
+1) Créer Le composant `CommentsComponent`, qui contiendra plusieurs commentaires (n'hésitez pas à ajouter autant de commentaires que vous le souhaitez).
+2) Ajouter ce component au composant  `MainComponent`.
+3) Au bas des commentaires, nous ajouterons un formulaire de commentaire pour ajouter de la réalité à notre article. Nous ne pouvons pas avoir de commentaires sans formulaire! (Ne vous inquiétez pas, cela n'a pas besoin de fonctionner. Nous y reviendrons plus tard).
+
+# Itération n°3
+Ajoutez des styles à la page pour donner un peu de style à votre blog!
+> Ajouter[Bootstrap] (https://www.ganatan.com/tutorials/bootstrap-avec-angular)  (optionel à ce niveau).  
