@@ -35,7 +35,7 @@ Dans le nom de pull request, ajoutez votre nom et votre prénom séparés par un
 ## Introduction
 Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur un petit projet où vous pouvez mettre en pratique les concepts que nous avons appris jusqu'à présent. Il s'agit de créer un article de blog avec des commentaires. Nous allons créer deux composants différents:
 
-- Le composant `MainComponent`  contiendra l'article, composé d'un` title`, d'une `image` et d'une` description`.
+- Le composant `AppComponent`  contiendra l'article, composé d'un` title`, d'une `image` et d'une` description`.
 - Le composant `CommentsComponent`, qui contiendra plusieurs commentaires .
 
 ### Starter Code
