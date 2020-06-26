@@ -27,7 +27,7 @@ import { NotePageFoundComponent } from './note-page-found/note-page-found.compon
     AppRoutingModule,
     FormsModule
   ],
-  providers: [ArticlesService],  // ajouter le service au module
+  providers: [],  // ajouter le service ArticlesLocalService au module
   bootstrap: [AppComponent]
 })
 export class AppModule { }
