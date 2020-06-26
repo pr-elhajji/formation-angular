@@ -1,10 +1,11 @@
-# Lab 3: Angular | Component
+# Lab 5: Angular | HTTP
 
 ## Les objectifs pédagogiques
 Après cette leçon, vous pourrez:
 
 - Ajouter un service 
-- récupération de data par un service
+- récupération de data par un service http
+- utilisation d'un observateur
 
 ## Requirements
 
