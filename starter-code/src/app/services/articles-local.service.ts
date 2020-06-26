@@ -4,9 +4,7 @@ import { plainToClass } from 'class-transformer'; // voir https://github.com/typ
 
 import { ARTICLES } from '../mock-articles';
 
-@Injectable({
-  providedIn: 'root'
-})
+//TODO
 export class ArticlesLocalService {
   articles: Article[];
   constructor() {
