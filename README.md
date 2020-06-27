@@ -32,21 +32,19 @@ In the pull request name, add your name and last names separated by a dash "-"
 Dans le nom de pull request, ajoutez votre nom et votre prénom séparés par un tiret "-"
 
 ## Introduction
-Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur un petit projet où vous pouvez mettre en pratique les concepts que nous avons appris jusqu'à présent. Il s'agit de créer un article de blog avec des commentaires. Nous allons créer deux composants différents:
-
-- Le composant `AppComponent`  contiendra l'article, composé d'un` title`, d'une `image` et d'une` description`.
-- Le composant `CommentsComponent`, qui contiendra plusieurs commentaires .
+Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur un petit projet où vous pouvez mettre en pratique les concepts que 
 
 ### Starter Code
-Ce lab est composé de trois itérations. À chaque itération, nous ajoutant une fonctionalité ou un composant à notre projet. Nous vous fournissons des 
-des mockup version desktop. Votre résultat final devrait être très proche de cette maquette (Vous pouvez ajouter d'autres options améliorants le rendu de vos pages).
+Nous vous fournissons des mockup (version desktop). Votre résultat final devrait être très proche de cette maquette (Vous pouvez ajouter d'autres options améliorants le rendu de vos pages).
 
 # Itération n°1:  Le service
-1) récupérer le  le projet angular ou continuer le développement dan sle même projet que le lab-4
+1- récupérer le  le projet angular ou continuer le développement dan sle même projet que le lab-4
 
-Nous allons utiliser un service http pour comminquer avec un serveur REST API; Nous utiliserons  `Json Server` comme un fake server.
-2) Installer `JSON SERVER', configurer le avec les données des articles puis lancer le
-3) implémenter un service 'article-service`  pour récupérer les données du serveurs ( la listes des article, la listes des commentaires,...)
-4) utilisaer le service au lieu de 'article-service-local'.
+Nous allons utiliser un service http pour comminquer avec un serveur REST API;
+Nous utiliserons  `Json Server` comme un fake server.
+
+2- Installer `JSON SERVER', configurer le avec les données des articles puis lancer le
+3- implémenter un service 'article-service`  pour récupérer les données du serveurs ( la listes des article, la listes des commentaires,...)
+4- utilisaer le service au lieu de 'article-service-local'.
 
 A vous!
