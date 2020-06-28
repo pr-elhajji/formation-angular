@@ -3,9 +3,9 @@
 ## Les objectifs pédagogiques
 Après cette leçon, vous pourrez:
 
-- Ajouter un service 
-- récupération de data par un service http
-- utilisation d'un observateur
+- Ajouter un service;
+- Implémentation des opération CRUD (créer, lire, mettre à jour et supprimer) à l'aide de la classe HttpClient; 
+- utilisation d'un observateur.
 
 ## Requirements
 
@@ -43,8 +43,10 @@ Nous vous fournissons des mockup (version desktop). Votre résultat final devrai
 Nous allons utiliser un service http pour comminquer avec un serveur REST API;
 Nous utiliserons  `Json Server` comme un fake server.
 
-2- Installer `JSON SERVER', configurer le avec les données des articles puis lancer le
-3- implémenter un service 'article-service`  pour récupérer les données du serveurs ( la listes des article, la listes des commentaires,...)
+2- Installer `JSON SERVER', configurer le avec les données des articles puis lancer-le.
+
+3- implémenter un service 'article-service`pour les opération CRUD (créer, lire, mettre à jour et supprimer) sur les article et les commentaires,...).
+
 4- utilisaer le service au lieu de 'article-service-local'.
 
 A vous!
