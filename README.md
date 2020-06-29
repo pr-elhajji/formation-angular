@@ -4,7 +4,7 @@ Créer un projet angular pour les mockups en attache à ce lab.
 - Au moins un service http
 - Route (un menu)
 - formulaire reactive form.
-- Styling bootstreap / Angular Material
+- Styling bootstrap / Angular Material
 - autre fonctionalité utile ...
 
 Une fois terminé, exécutez les commandes suivantes:
