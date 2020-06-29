@@ -1,4 +1,4 @@
-# Lab 5: Angular | Formulaires
+# Lab 6- Angular | Formulaires
 
 ## Les objectifs pédagogiques
 Après ce lab, vous pourrez:
