@@ -1,11 +1,11 @@
 # Lab 5: Angular | HTTP
 
 ## Les objectifs pédagogiques
-Après cette leçon, vous pourrez:
+Après ce lab, vous pourrez:
 
 - Ajouter un service;
 - Implémentation des opération CRUD (créer, lire, mettre à jour et supprimer) à l'aide de la classe HttpClient; 
-- utilisation d'un observateur.
+- Créer et gérer un formulaire en utilisant les deux approches les plus répandues: `Template-driven Forms` et `Reactive Forms`.
 
 ## Requirements
 
@@ -22,31 +22,40 @@ Une fois terminé, exécutez les commandes suivantes:
 ```bash
 $ git add .
 $ git commit -m "done"
-$ git push origin `lab5-http`
+$ git push origin `lab6-Form`
 ```
-Accédez à votre repo et créez un pull request  de votre branche `Lab-4-services`  vers la branche `lab5-http`  du repository d'origine.
+Accédez à votre repo et créez un pull request  de votre branche `lab6-Form`  vers la branche `lab6-Form`  du repository d'origine.
 
 In the pull request name, add your name and last names separated by a dash "-"
 
 
 Dans le nom de pull request, ajoutez votre nom et votre prénom séparés par un tiret "-"
 
-## Introduction
-Dans ce lab, nous allons travailler avec Angular pour la première fois. Le but ici est de travailler sur un petit projet où vous pouvez mettre en pratique les concepts que 
 
 ### Starter Code
-Nous vous fournissons des mockup (version desktop). Votre résultat final devrait être très proche de cette maquette (Vous pouvez ajouter d'autres options améliorants le rendu de vos pages).
+Nous vous fournissons des mockup (version desktop) et un code de départ . Votre résultat final devrait être très proche de cette maquette (Vous pouvez ajouter d'autres options améliorants le rendu de vos pages).
+# Itération n°1: Création d'un formulaire par Template-driven Forms
+1- récupérer le  le projet angular ou continuer le développement dan sle même projet que le lab-5
 
-# Itération n°1:  Le service
-1- récupérer le  le projet angular ou continuer le développement dan sle même projet que le lab-4
+Le service http pour comminquer avec un serveur REST API (`Json Server`) est déja implimenté.
+dans cette première itération votre travail consiste à développer un formulaire pour ajouter un  nouveau aricle.
 
-Nous allons utiliser un service http pour comminquer avec un serveur REST API;
-Nous utiliserons  `Json Server` comme un fake server.
+1- Créer un formulaire  ajouter un nouveau article et ajouter les validateurs (Tous les champs sont oblégatoire.
 
-2- Installer `JSON SERVER', configurer le avec les données des articles puis lancer-le.
+2- Ajouter un formulaire pour ajouter un nouveau commentaire.
 
-3- implémenter un service 'article-service`pour les opération CRUD (créer, lire, mettre à jour et supprimer) sur les article et les commentaires,...).
+3- (optionel) Ajouter les autres formulaires pour modifier supprimer un article.
 
-4- utilisaer le service au lieu de 'article-service-local'.
+# Itération n°2: Création d'un formulaire par Reactive Forms
+1- Récupérer le  le projet angular ou continuer le développement dan sle même projet que le lab-5
+
+2- Créer me formulaire en utilisant l'approche 'Reactive Forms' et ajouter les validateur (Tous les champs sont oblégatoire.
+
+3- Ajouter un formulaire pour ajouter un nouveau commentaire.
+
+4- (optionel) Ajouter les autres formulaires pour modifier supprimer un article.
+
+Q) quels sont les critères de choix entre ces deux approches? 
+
 
 A vous!
