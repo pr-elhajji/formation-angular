@@ -1,0 +1,20 @@
+
+<!-- boucle sur la listes des articles *ngFor-->
+
+<article class="feature left" *ngFor ="let ele of articles; let index = index;">
+  <h2>{{ele.title}}</h2>
+  <span class="image">
+      <img [src] = "ele.imgurl" alt="" width="40%"></span>
+      <ul class="actions">
+      <li>
+        <a routerLink="/article/{{ele.id}}" class="button alt">More</a>  <!-- localhost/article/1 -->
+
+      </li>
+      <li>
+        <button (click)="updateArticle(ele.id)"> Modifier</button>
+      </li>
+      <li>
+        <button (click)="deleteArticle(ele.id)"> supprimer</button>
+      </li>
+    </ul>
+</article>

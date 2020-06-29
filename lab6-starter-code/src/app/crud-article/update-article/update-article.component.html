@@ -1,0 +1,22 @@
+ <!-- Comments Form -->
+ <div class="card my-4">
+  <h5 class="card-header">Modifier L'article: {{article.id}}</h5>
+  <div class="card-body">
+    <!--Pour détecter le "submit" du formulaire, il faut utiliser l'Output ngSubmit sur l'élément form.-->
+    <form (ngSubmit)="UpdateArticle()">
+      <div class="form-group">
+        <input  type="text" name="id" required class="form-control" placeholder="Id:"/>
+      </div>
+      <div class="form-group">
+        <input  type="text" name="title"  required class="form-control" placeholder="Title:"/>
+      </div>
+      <div class="form-group">
+        <input  type="text" name="img"  required class="form-control" placeholder="Url de l'image:"/>
+      </div>
+      <div class="form-group">
+        <textarea name="content"  required class="form-control"  rows="3" placeholder="le contenu de l'article:"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>

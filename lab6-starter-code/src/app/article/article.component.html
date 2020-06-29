@@ -1,0 +1,29 @@
+
+<!-- Page Content -->
+<div class="container" *ngIf="article">
+
+  <div class="row">
+
+    <!-- Post Content Column -->
+    <div class="col-lg-8">
+
+      <!-- Title -->
+      <h1 class="mt-4">{{article.title}}</h1>
+      <hr>
+      <!-- Preview Image -->
+      <img class="img-fluid rounded" [src]="article.imgurl" alt="">
+      <hr>
+      <!-- Post Content -->
+      {{article.content}}
+    </div>
+  </div>
+
+<br>
+<!--<app-comments [article]="article"></app-comments>   input id de l'article-->
+<app-comment-form-template [article]="article"></app-comment-form-template>
+
+</div>
+
+<ng-template [ngIf]="!article">
+  <app-note-page-found></app-note-page-found>
+</ng-template>
